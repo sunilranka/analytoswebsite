@@ -1,0 +1,637 @@
+
+
+@media screen and (min-width:980px) and (max-width:1024px) {
+	
+	
+.navbar-nav > li > a {
+    padding: 0 21px 0 0;
+}
+#flash,#timelineWrap,.about-main,.news-img img{
+	width:100%;
+}
+.member-image{
+float:none;
+}
+#header{
+width:100% !important;
+}
+
+ #header .logo {margin:10px 0 10px;
+ width:100px;
+ height:102px;
+ background:url(../images/logo_analytos.png) no-repeat;
+ }
+.about {
+    width: 340px;
+}
+.slick-slide,.slick-slide img{
+    height: 384px;
+}
+.fet-slide .slick-next {  
+    right: 43%; 
+}
+.expert-tabs ul li a {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.team3-main {
+    margin-left: 21px; 
+}
+#owl-testimonial-4 .cont3-brand {
+  
+    margin-right: 12px;
+   
+}
+.content3-image img{
+	height:450px;
+}
+.news2 {
+    margin-right: 26px;
+   
+}
+.content3-comments {
+    width: 182px;
+}
+.news5-content {
+    width: 284px;
+}
+.contact6-information p{
+border-bottom:none;
+}
+.header3 .navbar-nav > li > a {
+    margin: 0 23px 0 0;
+    
+}
+.copy p{
+	text-align:right;
+	color:#fff;
+	margin:0px;
+}
+}
+@media screen and (min-width:768px) and (max-width:979px){
+.sticky-wrapper,#header .wrapper{
+	
+}
+#header{
+width:100% !important;
+}
+
+#header .logo {margin:10px 0 10px;
+ width:70px;
+ height:71px;
+ background:url(../images/logo_analytos_70x.png) no-repeat;
+ }
+
+.about {
+    margin: 0 auto;
+    padding: 0;
+    width: 250px;
+}
+
+ol.list{list-style-type: square; font-size:14px; text-align:left; font-family:'OpenSans-Regular';}
+
+#flash,#timelineWrap,.about-main,.news-img img{
+	width:100%;
+}
+.footer-social i {  
+    margin-right: 7px;
+}
+.fet-image {
+    width: 50%;
+}
+.member-image{
+float:none;
+}
+#supplemental{
+display:none !important;
+}
+.fet2-overlay {
+    height: 366px !important;
+    width: auto;
+}
+.fet2-overlay h4 { 
+    margin-top: 20px;
+}
+.slick-slide,.slick-slide img{
+    height: 384px;
+}
+.fet-slide .slick-next {
+    right: 40%; 
+}
+.expert-tabs ul li a {
+    
+    padding-left: 34px;
+    padding-right: 34px;
+}
+.team3-main {
+    margin-left: 21px; 
+}
+.team5-main {
+    width: 50%;
+}
+#videobox2 .video-box-content h2{
+font-size:30px;
+}
+#owl-testimonial-4 .cont3-brand {
+    
+    margin-right: 3px;
+    
+}
+
+.content3 h3 {  
+    font-size: 34px;
+}
+.content3-image img{
+	height:450px;
+}
+#content5 .expert3-content h3{
+	 font-size: 30px;
+}
+.news2 {
+    margin-right: 20px; 
+}
+.news3-content,.news3-image{
+	width:100%;
+}
+.content3-comments {
+    width: 240px;
+}
+.news5-content {
+    width: 170px;
+}
+.contact6-information p{
+border-bottom:none;
+}
+.controlss-line {
+    width: 38px !important;
+}
+.controlss li {
+    width: 107px;
+}
+.header3 .navbar-nav > li > a {
+    margin: 0 22px 0 0;
+    
+}
+.header3 .navbar-nav{
+	margin-top:10px;
+}
+.navbar5-social{
+display:none;
+}
+.header5 .navbar-nav > li > a {
+ padding: 0 22px 0 0;
+}
+.header .navbar-nav > li > a {
+    padding: 0 25px 0 0;
+}
+
+.consulting_service_img_left {float:left; width:250px; height:150px; margin-top: -120px;
+     margin-left: -20px; }
+	 
+	 ol.list_position_left{float:left; text-align:justify; list-style-type: square; font-size:14px; font-family:'OpenSans-Regular'; margin-bottom:50px; margin-left: -40px;}
+	 
+	  ol.list_position_left2{float:left; text-align:justify; list-style-type: square; font-size:14px; font-family:'OpenSans-Regular'; margin-left: -40px; }
+	  ol.list_position_right2{float:right; text-align:justify; list-style-type: square; font-size:14px; font-family:'OpenSans-Regular';     margin: 0px -30px;}
+	  
+	  
+	  
+	  
+.consulting_service_img_left_2 {float:left; width:250px; height:150px; margin-top: -10px;
+    margin-left: -20px; }
+	ol.list_position{float:right; text-align:justify; list-style-type: square; font-size:14px; font-family:'OpenSans-Regular';  margin-right:-40px;}
+	.consulting_service_img_right {float:right; width:280px; height:150px;}
+	.consulting_service_img_right_2 {float:right; width:280px; height:150px; margin-top: 40px;}
+	
+	h3 {
+	font-size: 18px;
+	font-family: 'Oswald-Regular';
+	line-height:22px;
+	color:#252525;
+	margin: 10px 0 0px;
+}
+
+.copy p{
+	text-align:right;
+	color:#fff;
+	margin:0px;
+}
+
+@media screen and (width:479px){
+	
+	#header .logo {margin:5px 0 5px;
+ width:60px;
+ height:61px;
+ background:url(../images/logo_analytos_60x.png) no-repeat;
+ }
+.copy p{
+text-align:center;
+}
+.copy{
+margin-bottom:20px;
+}
+.news1{
+	margin-bottom:20px;
+}
+#flash,#timelineWrap,.fet-image,.about-main,.news-img img{
+	width:100%;
+}
+.ca-container {
+    height: 279px;
+   
+}
+.footer-social{
+text-align:center;
+}
+#about-main{
+position: inherit;
+}
+#free-estimate {
+    padding-top: 0;
+}
+#about-top {
+    padding-bottom: 0px;
+}
+.about img{
+width:100%;
+}
+.navbar-toggle {
+    background-color: #222;
+    background-image: none;
+    border: 1px solid #fff;
+    border-radius: 0;
+    float: right;
+   
+    margin-top: 8px;
+    padding: 20px;
+    position: relative;
+}
+.navbar-collapse{
+padding-left:15px !important;
+padding-right:15px;
+}
+.nav > li {
+    
+    margin-bottom: 14px;
+    
+}
+.sticky-wrapper{
+height:auto !important;
+}
+.top-bar-request{
+text-align:left;
+margin-top:15px;
+}
+.about {
+	margin-left:0px;
+    padding: 0;
+    width: 220px;
+}
+
+.about-main {
+	    float: left;
+    margin: 0 auto;
+    width: 480px;
+    padding: 0px;}
+	
+	
+	ol.list{list-style:none; font-size:14px; text-align:center; font-family:'OpenSans-Regular';}
+
+
+/*New Menu CSS Start*/
+#cssmenu {
+    width: 100%;
+  }
+  #cssmenu ul {
+    width: 100%;
+    display: none;
+  }
+  #cssmenu.align-center > ul,
+  #cssmenu.align-right ul ul {
+    text-align: left;
+  }
+  #cssmenu ul li,
+  #cssmenu ul ul li,
+  #cssmenu ul li:hover > ul > li {
+    width: 100%;
+    height: auto;
+    border-top: 1px solid rgba(120, 120, 120, 0.15);
+  }
+  #cssmenu ul li a,
+  #cssmenu ul ul li a {
+    width: 100%;
+  }
+  #cssmenu > ul > li,
+  #cssmenu.align-center > ul > li,
+  #cssmenu.align-right > ul > li {
+    float: none;
+    display: block;
+  }
+  #cssmenu ul ul li a {
+    padding: 20px 20px 20px 30px;
+    font-size: 12px;
+    color: #000000;
+    background: none;
+  }
+  #cssmenu ul ul li:hover > a,
+  #cssmenu ul ul li a:hover {
+    color: #000000;
+  }
+  #cssmenu ul ul ul li a {
+    padding-left: 40px;
+  }
+  #cssmenu ul ul,
+  #cssmenu ul ul ul {
+    position: relative;
+    left: 0;
+    right: auto;
+    width: 100%;
+    margin: 0;
+  }
+  #cssmenu > ul > li.has-sub > a::after,
+  #cssmenu ul ul li.has-sub > a::after {
+    display: none;
+  }
+  #menu-line {
+    display: none;
+  }
+  #cssmenu #menu-button {
+    display: block;
+    /*padding: 20px;*/
+    color: #000000;
+    cursor: pointer;
+    font-size: 12px;
+    text-transform: uppercase;
+	/*background-color:#3498db;*/
+  }
+  #cssmenu #menu-button::after {
+    content: '';
+    position: absolute;
+    top: -40px;
+    right: 20px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    background:url(../images/nav.png) no-repeat;
+  }
+  /*#cssmenu #menu-button::before {
+    content: '';
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    display: block;
+    width: 45px;
+    height: 3px;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+  }*/
+  
+  #cssmenu .submenu-button {
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    top: 0;
+    display: block;
+    border-left: 1px solid rgba(120, 120, 120, 0.15);
+    height: 52px;
+    width: 52px;
+    cursor: pointer;
+  }
+  #cssmenu .submenu-button::after {
+    content: '';
+    position: absolute;
+    top: 21px;
+    left: 26px;
+    display: block;
+    width: 1px;
+    height: 11px;
+    background: #000000;
+    z-index: 99;
+  }
+  #cssmenu .submenu-button::before {
+    content: '';
+    position: absolute;
+    left: 21px;
+    top: 26px;
+    display: block;
+    width: 11px;
+    height: 1px;
+    background: #000000;
+    z-index: 99;
+  }
+  #cssmenu .submenu-button.submenu-opened:after {
+    display: none;
+  }
+
+.required{
+    color:#F00;
+}
+
+/*END MENU*/
+
+.consulting_service_img_left {float:left; width:250px; height:150px; margin-top: -130px;
+  }
+
+
+
+}
+@media screen  and (max-width: 480px) and (min-width: 320px){
+
+
+
+#header .logo {margin:5px 0 5px;
+ width:60px;
+ height:61px;
+ background:url(../images/logo_analytos_60x.png) no-repeat;
+ }
+.copy p{
+text-align:center;
+}
+.copy{
+margin-bottom:20px;
+}
+.ca-container {
+    height: 473px;
+}
+
+.news1{
+	margin-bottom:20px;
+}
+#flash,#timelineWrap,.fet-image,.about-main,.news-img img{
+	width:100%;
+}
+.about-main {
+    float: none;
+    margin: 0 auto;
+    width: 300px;
+    padding: 0px;}
+	
+	
+	
+#free-estimate {
+    padding-top: 0;
+}
+#about-top {
+    padding-bottom: 0px;
+}
+.top-bar-request{
+text-align:left;
+margin-top:15px;
+}
+.about,.about img{
+width:100%;
+}
+.navbar-toggle {
+    background-color: #222!important;
+    background-image: none!important;
+    border: 1px solid #fff!important;
+    border-radius: 0!important;
+    float: right!important;
+   
+    margin-top: 8px!important;
+    padding: 20px!important;
+    position: relative!important;
+}
+.navbar-collapse{
+padding-left:15px !important;
+padding-right:15px;
+}
+.nav > li {
+    
+    margin-bottom: 14px;
+    
+}
+.footer-social{
+text-align:center;
+}
+.sticky-wrapper{
+height:auto !important;
+}
+.navbar{
+width:310px !important;
+}
+.pages li{
+	margin-bottom:10px;
+}
+#supplemental,.member-content{
+	display:none!important;
+}
+.header2-topbar .hed2-nav ul {
+    margin-bottom: 0!important;
+    margin-top: 15px!important;
+    padding: 0!important;
+    text-align: left!important;
+}
+.fet2-overlay{
+	display:none;
+}
+.fet-slide .slick-prev {
+    
+    left: 35%;
+    
+}
+.expert-tabs ul li a{
+	padding-left:0px;
+	padding-right:0px;
+}
+.expert-tabs ul li {
+    border-right: 0px;
+    display: inherit;
+	margin-bottom:30px;
+}
+.team3-main,.team4-main {
+    width: 100%;
+	margin-left:0px;
+}
+.team3-image img{
+	width:100%;
+}
+#owl-testimonial-4{
+	display:none !important;
+}
+.content3 h3 {
+    
+    font-size: 30px;
+   
+}
+#content5 .expert3-content h3{
+	 font-size: 26px;
+}
+.news2 {
+	margin-bottom:30px;
+    width: 100%;
+}
+.content3-comments{
+	width:100%;
+	margin-bottom:20px;
+}
+.news4-main-content{
+	margin-bottom:30px;
+}
+.news5-content {
+    width: 143px;
+}
+.contact4-social-main {
+    width: auto;
+}
+.contact6-information p{
+border-bottom:none;
+}
+.controlss{
+	width:auto;
+}
+.controlss li{
+	float:none;
+	width:280px;
+}
+.controlss-line{
+	display:none !important;
+}
+.header3 .navbar-nav > li > a:hover,.header3 .navbar-nav > li > a{
+	border:0px;
+	padding:0px;
+
+}
+.header3 .navbar-brand{
+	margin-bottom:10px;
+}
+.header3 .navbar-toggle {
+    margin-top: 22px !important;
+}
+.topbar4-social,.topbar6-social{
+	text-align:left;
+}
+.navbar5-social,.navbar5-logo {
+	text-align:left !important;
+}
+.header5 .navbar-drope {
+    border-top: 1px solid #ededed;
+    top: 207px;
+}
+
+}
+@media screen  and (width:380px){
+	.ca-wrapper { 
+    width: 87%;
+}
+
+#header .logo {margin:5px 0 5px;
+ width:60px;
+ height:61px;
+ background:url(../images/logo_analytos_60x.png) no-repeat;
+ }
+ 
+ 
+@media screen  and (width:360px){
+	.ca-wrapper {
+    width: 90%;
+}
+.navbar{
+width:340px !important;
+}
+
+.copy p {
+    text-align: center;
+    color: #fff;
+    margin: 0px;
+}
+}
