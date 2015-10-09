@@ -2221,7 +2221,7 @@ text-transform:uppercase;
 }
 
 .member-image{
-	float:left;
+	float:none;
 }
 .member-image:hover{
 	cursor:pointer;
@@ -4438,7 +4438,7 @@ text-align:center;
     display: block;
   }
   #cssmenu ul ul li a {
-    padding: 20px 20px 20px 30px;
+    /*padding: 20px 20px 20px 30px;*/
     font-size: 12px;
     color: #000000;
     background: none;
@@ -4477,7 +4477,7 @@ text-align:center;
   #cssmenu #menu-button::after {
     content: '';
     position: absolute;
-    top: -40px;
+    top: -52px;
     right: 20px;
     display: block;
     width: 40px;
@@ -4499,7 +4499,7 @@ text-align:center;
   #cssmenu .submenu-button {
     position: absolute;
     z-index: 10;
-    right: 0;
+    right: 10px;
     top: 0;
     display: block;
     border-left: 1px solid rgba(120, 120, 120, 0.15);
@@ -4537,6 +4537,7 @@ text-align:center;
 	margin-bottom:-18px;
 	margin-top:20px;
 }
+
 }
 .required{
     color:#F00;
