@@ -76,7 +76,7 @@ span{
  
 		if (empty($error)) {
 		$from = 'From: ' . $name . ' <' . $email . '>';
-		$to = "harika.dhandu@nipponitsolutions.com";
+		$to = "vinay.mistry@nipponitsolutions.com";
 		$subject = "New contact form message";
         $content = $name . " has sent you a message: \n" . $message . "\n Phone number: " . $phone;
 		$success = "<h2><span>Thank you! Your message has been sent!</span></h2>";
@@ -110,7 +110,7 @@ span{
                          <ul>
                        <li><a href='company.html'>Company</a></li>
                         <li><a href='team.html'>Team</a></li>
-                         <li><a href='new&updates.html'>News and Updates</a></li>
+                        <!-- <li><a href='new&updates.html'>News and Updates</a></li>-->
                         </ul>
                          </li>
                          <li class='has-sub'><a href='#'>Services</a>
@@ -126,8 +126,8 @@ span{
                       <!--<li><a href='#'>Training</a></li>-->
                       <li><a href='usecases.html'>Use Cases</a></li>
                       <li><a href='tech.html'>Technology</a></li>
-                      <li><a href='#'>Career</a></li>
-                     <li><a href='index.html#contact-us'>Contact Us</a></li>
+                      <li><a href='career.html'>Career</a></li>
+                     <li><a href='contact.php'>Contact Us</a></li>
                    
                   </ul>
                  </div>
@@ -185,12 +185,12 @@ please contact us to discuss the opportunity at <span>enquiry@analytos.com</span
 							<p>5, Vishal Apartments</p>
 							<p>S.V.Patel Road Kandivali(W),</p>
                             <p>Mumbai - 400067</p>
-                            <p>+91 9821 88 46 29</p>
+                            
 						</div>
 						<div class="col-md-4 col-sm-4 col-xs-12 contact-info">
 							<!--<h3>OFFICE HOURS</h3>	-->
 							<p><strong>USA:</strong> 001 408 898 2474</p>
-                            <p><strong>India:</strong> 0092 9821884629</p>
+                            <p><strong>India:</strong> 0091 9821884629</p>
 							<p><strong>Email:</strong> information@analytos.com</p>
 						</div>	
 					</div>
@@ -248,7 +248,7 @@ please contact us to discuss the opportunity at <span>enquiry@analytos.com</span
 				<!-- /.item -->
 		
     		
-		<div class="item padding-top-74 padding-bottom-74" id="footer">
+		<div class="item padding-top-150 padding-bottom-74" id="footer">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-5 col-sm-5 col-xs-12 copy">
@@ -256,15 +256,13 @@ please contact us to discuss the opportunity at <span>enquiry@analytos.com</span
 						
 					</div>
 					<div class="col-md-2 col-sm-2 col-xs-12 footer-logo">
-						<a href="index.html"><img src="images/logo.jpg" alt="Analytos"></a>	
+						<!--<a href="index.html"><img src="images/logo.jpg" alt="Analytos"></a>	-->
 					</div>
 					<div class="col-md-5 col-sm-5 col-xs-12 footer-social">
-						<a href=""><i class="fa fa-facebook-square"></i></a>		
-						<a href=""><i class="fa fa-twitter-square"></i></a>		
-						<a href=""><i class="fa fa-linkedin-square"></i></a>		
-						<a href=""><i class="fa fa-flickr"></i></a>		
-						<a href=""><i class="fa fa-dribbble"></i></a>		
-						<a href=""><i class="fa fa-youtube-square"></i></a>		
+						 <a href="#"><i class="fa fa-linkedin-square"></i></a>
+						<a href="#"><i class="fa fa-facebook-square"></i></a>		
+						<a href="#"><i class="fa fa-twitter-square"></i></a>		
+						<a href="#"><i class="fa fa-youtube-square"></i></a>		
 								
 					</div>	
 				</div>	

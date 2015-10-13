@@ -141,7 +141,7 @@ h2 {
 h3 {
 	font-size: 24px;
 	font-family: 'Oswald-Regular';
-	line-height:26px;
+	line-height:28px;
 	color:#252525;
 }
 
@@ -2210,7 +2210,7 @@ text-transform:uppercase;
 }
 /* our crew section */
 #team{
-	background:#eaeaea;
+	background:#fff;
 	
 }
 
@@ -2244,7 +2244,7 @@ text-transform:uppercase;
 	
 }
   .member-content {
-    display:none;
+    display:block;
 	 height: 140px;
   }
   #supplemental {

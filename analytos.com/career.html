@@ -22,7 +22,61 @@
       <script src="js/html5shiv.js"></script>
       <script src="js/respond.min.js"></script>
     <![endif]-->
+    <style>
+    .morecontent span {
+    display: none;
+	
+}
+.morelink {
+    display: block;
+}
+.sub-title span {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333333;
+	text-transform:capitalize;
+	text-align:justify;}
+    </style>
 </head>
+<script>
+$(document).ready(function() {
+    // Configure/customize these variables.
+    var showChar = 400;  // How many characters are shown by default
+    var ellipsestext = "...";
+    var moretext = "Show more >";
+    var lesstext = "Show less";
+    
+
+    $('.more').each(function() {
+        var content = $(this).html();
+ 
+        if(content.length > showChar) {
+ 
+            var c = content.substr(0, showChar);
+            var h = content.substr(showChar, content.length - showChar);
+ 
+            var html = c + '<span class="moreellipses">' + ellipsestext+ '&nbsp;</span><p class="morecontent"><span>' + h + '</span>&nbsp;&nbsp;<a href="" class="morelink">' + moretext + '</a></p>';
+ 
+            $(this).html(html);
+        }
+ 
+    });
+ 
+    $(".morelink").click(function(){
+        if($(this).hasClass("less")) {
+            $(this).removeClass("less");
+            $(this).html(moretext);
+        } else {
+            $(this).addClass("less");
+            $(this).html(lesstext);
+        }
+        $(this).parent().prev().toggle();
+        $(this).prev().toggle();
+        return false;
+    });
+});
+</script>
 <body>
     
     <div id="page" class="page">
@@ -45,7 +99,7 @@
     								
     					<div id='cssmenu'>
                          <ul>
-                         <li class='has-sub'><a href='index.html'><i class="fa fa-home"></i></a></li>
+                         <li class='active propClone'><a href='index.html'><i class="fa fa-home"></i></a></li>
                          <li class='has-sub'><a href='#'>About Us</a>
                          <ul>
                          <li><a href='company.html'>Company</a></li>
@@ -53,7 +107,7 @@
                         <!--<li><a href='#'>News and Updates</a></li>-->
                         </ul>
                          </li>
-                         <li class='active propClone'><a href='#'>Services</a>
+                         <li class='has-sub'><a href='#'>Services</a>
                         <ul>
                         <li><a href='bigdata.html'>Big Data on Cloud</a></li>
                         <li><a href='methodology.html'>Methodologies</a></li>
@@ -100,22 +154,95 @@
 				<div class="container">
 					
 						<div class="title text-center">
-								<h1>Big Data&nbsp;<span>On Cloud</span></h1>
+								<h1><span>Career</span></h1>
 								<div class="title-border background-color-blue"></div>
 								<div class="col-md-9 sub-title">
-                                      <p align="justify">
-Big data applications helps enterprises make sense of their data and discovers meaningful insights that drive business optimizations. But with large volumes of data, a shortage of expertise, and large upfront investments, customer project costs are spiraling out of control.
+                                     <!--<span class="more">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </span>
+    <br><br>-->
+    <div class="more">
+    <h3>Junior Data Scientist</h3>
+     You will collaborate with the brightest technical minds in building futuristic products, researching groundbreaking concepts, and influencing new ideas to transform retail. If you want to make meaningful contributions and reinvent the retail space that will impact millions of guests, Target is for you.
+<br/>
+<strong>About This Opportunity:</strong>
+Responsible for the development of high performance, distributed computing tasks using Big Data technologies such as Hadoop, NoSQL, text mining and other distributed environment technologies based on the needs of the organization. Designs and drives the creation of new standards and best practices in the use of statistical data modeling, big data and optimization tools.
+<br/>
+&raquo; Deploy data-science and technology based algorithmic solutions to address business needs for our customers
+&raquo; Utilize recommender systems, collaborative filtering techniques, propensity modeling to drive our customer's business priorities<br/>
+<strong>Qualifications:</strong> Msc - Statistics / Math or PhD in any stream<br/>
+<strong>Experience : 0 to 2 years </strong><br/>
+<strong>Requirements</strong><strong></strong><br/>
+&raquo; Experience / Strong Knowledge of Regression/Linear Analysis<br/>
+&raquo; Familiarity with any of Deep Learning, Distributed RF, Generalized Linear Model,K-Mean and naive Bayes<br/>
+&raquo; Familiarity with designing algorithms on Hadoop ecosystem<br/>
+&raquo; Experience / Strong Knowledge with recommendation systems<br/>
+&raquo; A strong passion for empirical research and for answering hard questions with data<br/>
+&raquo; Excellent written and verbal communication skills
+    </div>
+    
+    
+    <div class="more">
+    <h3>Data Scientist</h3>
+   You will collaborate with the brightest technical minds in building futuristic products, researching groundbreaking concepts, and influencing new ideas to transform retail. If you want to make meaningful contributions and reinvent the retail space that will impact millions of guests, Target is for you.
+<br/>
+<strong>About This Opportunity:</strong>
+Responsible for the development of high performance, distributed computing tasks using Big Data technologies such as Hadoop, NoSQL, text mining and other distributed environment technologies based on the needs of the organization. Designs and drives the creation of new standards and best practices in the use of statistical data modeling, big data and optimization tools.
+<br/>
+&raquo; Deploy data-science and technology based algorithmic solutions to address business needs for our customers<br/>
+&raquo; Utilize recommender systems, collaborative filtering techniques, propensity modeling to drive our customer's business priorities<br/>
+<strong>Qualifications:</strong> Msc - Statistics / Math or PhD in any stream<br/>
+<strong>Experience : 2 to 4 years </strong><br/>
+<strong>Requirements</strong><strong></strong>
 
-With  Big Data on Cloud, customers can quickly provision a robust environment powered by latest Big Data technologies that's sized to fit their high-volume data processing needs and budget. Analytos's artisans helps  customer for every stage of the big data lifecycle on cloud :</p>
+&raquo; Experience of Regression/Linear Analysis<br/>
+&raquo; Experience with any of Deep Learning, Distributed RF, Generalized Linear Model,K-Mean and naive Bayes<br/>
+&raquo; Experience with designing algorithms on Hadoop ecosystem<br/>
+&raquo; Experience  with recommendation systems<br/>
+&raquo; A strong passion for empirical research and for answering hard questions with data<br/>
+&raquo; Excellent written and verbal communication skills<br/>
+    </div>
+    
+    
+    
+     <div class="more">
+    <h3>Data Engineers </h3>
+  <strong>Qualifications:</strong> BSc IT , MSC IT , MCA<br/>
+<strong>  Experience : 0 to 2 years </strong>
+<br/>
 
-<ol class="list">
-<li>How cloud helps companies to derive faster time to value from big data.</li>
-<li>Talks about how agility and flexibility of the cloud benefits big data infrastructure and completely changes the model on how this infrastructure is operated in the cloud with a reduced TCO.</li>
-<li>Helps un Cover how new advances in cloud security and compliance and progressively changing perceptions around those topics in the enterprise and causing more and more enterprises to consider the cloud option for their big data infrastructure.
-</li>
-</ol>
-</p>
+A good data engineer is has extensive knowledge on databases and best engineering practices. These include handling and logging errors, monitoring the system, building human-fault-tolerant pipelines, understanding what is necessary to scale up, addressing continuous integration, knowledge of database administration, maintaining data cleaning, and ensuring a deterministic pipeline.
+<br/>
+<strong>Job Description</strong><br/>
+The Core Data Engineer - Analyst will:
+&raquo; Lead the discussion around Hadoop Clusters and our Big Data technology platform.<br/>
+&raquo; Lead the discussion around monitoring and control of our data warehouse systems<br/>
+&raquo; Work as a part of a cross-functional team to ensure data is flowing from transaction systems, logs, etc. into our processing pipelines<br/>
+&raquo; Work with Data Scientists to ensure demands are met for data analysis<br/>
+&raquo; Ensure task queues are processing jobs efficiently at scale<br/>
+&raquo; Work with Architecture to diagnose complex software systems and discuss security and performance concerns early in the process<br/>
+&raquo; Lead research on emerging technologies<br/>
+&raquo; Lead troubleshooting efforts, but not be solely responsible for them<br/>
+&raquo; Train and mentor other engineering team members around service discovery, configuration management, and provisioning technology<br/>
+&raquo; Managing Infrastructure like Laptops / Desktops / Servers in case of any issues.<br/>
+<strong>Required Skills</strong><br/>
+&raquo; You thrive in an informal work environment with flexible hours but inflexible deadlines.<br/>
+&raquo; You have displayed an aptitude for picking up new skills and approaches and are eager to broaden your knowledge of the use and analysis of data to solve real-world problems.<br/>
+&raquo; You are willing to engage in continuing education through both formal and informal studies to further develop your skills.<br/>
+&raquo; Analytical thinker and problem solver. <br/>
 
+<strong>Desired Skills</strong> <br/>
+
+&raquo; Relevant work experience in managing Windows / Linux distributions, patching, updating in a large scale environment<br/>
+&raquo; Relevant work experience setting up Tableau or other visualization tools<br/>
+&raquo; Experience working with Hadoop, MapReduce, HBase, ZooKeeper, and other relevant technology<br/>
+&raquo; Coding/Scripting ability in Bash + Ruby, Python, Scala, or Java<br/>
+&raquo; Experience scaling API environments such as Apache, Nginx, Node/Express, Ruby/Sinatra<br/>
+&raquo; Experience working with distributed systems and partitioning of data<br/>
+&raquo; Good Communication Skills.<br/>
+
+    </div>
+For applying for these positions email your resume on <strong>careers@analytos.com</strong>
 </div>
 </div>			
 								

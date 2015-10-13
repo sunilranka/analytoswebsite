@@ -7191,4 +7191,7 @@ ol.list{list-style-type: square; font-size:14px; text-align:justify; font-family
  height:61px;
  
  }	
+ .member-content {
+    display: block;
+    height: 140px;}
 }

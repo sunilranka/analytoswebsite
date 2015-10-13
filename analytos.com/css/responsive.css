@@ -400,8 +400,13 @@ width:310px !important;
 .pages li{
 	margin-bottom:10px;
 }
-#supplemental,.member-content{
+#supplemental{
 	display:none!important;
+}
+
+.member-content{
+	display:block!important;
+	text-align:center;
 }
 .header2-topbar .hed2-nav ul {
     margin-bottom: 0!important;
