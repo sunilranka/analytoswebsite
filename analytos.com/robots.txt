@@ -1,0 +1,8 @@
+User-Agent: *
+Disallow: 
+Disallow: /cgi-bin
+Disallow: /oldUndercons
+Disallow: /js
+
+Sitemap: http://www.analytos.com/sitemap.xml
+
