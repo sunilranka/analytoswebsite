@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for http://analytos.com/</title>
+  <link>http://analytos.com/</link>
+
+<item>
+     <link>http://analytos.com/</link>
+     <title>Analytos - Home</title>
+     <description>Analytos - Home</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://analytos.com/index.html</link>
+     <title>Analytos - Home</title>
+     <description>Analytos - Home</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://analytos.com/company.html</link>
+     <title>Analytos - About</title>
+     <description>Analytos - About</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://analytos.com/team.html</link>
+     <title>Analytos - Team</title>
+     <description>Analytos - Team</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://analytos.com/bigdata.html</link>
+     <title>Analytos - Big Data on Cloud</title>
+     <description>Analytos - Big Data on Cloud</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://analytos.com/methodology.html</link>
+     <title>Analytos - Big Data on Cloud</title>
+     <description>Analytos - Big Data on Cloud</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://analytos.com/strategy.html</link>
+     <title>Analytos - Big Data on Cloud</title>
+     <description>Analytos - Big Data on Cloud</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://analytos.com/data-sceince.html</link>
+     <title>Analytos - Data Science</title>
+     <description>Analytos - Data Science</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://analytos.com/consulting-services.html</link>
+     <title>Analytos - Consulting Services</title>
+     <description>Analytos - Consulting Services</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://analytos.com/valueaddservices.html</link>
+     <title>Analytos - Value Add Services</title>
+     <description>Analytos - Value Add Services</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://analytos.com/usecases.html</link>
+     <title>Analytos - Use Cases</title>
+     <description>Analytos - Use Cases</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://analytos.com/tech.html</link>
+     <title>Analytos - Technology</title>
+     <description>Analytos - Technology</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://analytos.com/career.html</link>
+     <title>Analytos - Big Data on Cloud</title>
+     <description>Analytos - Big Data on Cloud</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://analytos.com/contact.php</link>
+     <title>Analytos - Contact</title>
+     <description>Analytos - Contact</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
