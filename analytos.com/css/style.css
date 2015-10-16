@@ -4278,7 +4278,7 @@ text-align:center;
   display: none;
 }
 #cssmenu {
-  width: 750px;
+  width: 100%;
   font-family:'Oswald-Light';
   line-height: 1;
   background: #ffffff;
@@ -4362,7 +4362,7 @@ text-align:center;
 #cssmenu ul ul {
   position: absolute;
   left: -9999px;
-  padding-top: 26px;
+  padding-top: 31px;
 }
 #cssmenu li:hover > ul {
   left: auto;
@@ -4567,7 +4567,7 @@ text-align:center;
   
   .navbar{
 	    float: right;
-    margin: 0px -20px 0 0;
+    margin: 0px 0px 0 0;
 }
 
 .cases{
