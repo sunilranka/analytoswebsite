@@ -307,7 +307,7 @@ table {
 *:after {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
-          box-sizing: border-box;
+         box-sizing: border-box;
 }
 
 html {
@@ -850,8 +850,18 @@ pre code {
  height:102px;
 
  }
+ .logo_width{
+	width:20%; 
+	float:left;
+	}
+	
+	.nav_width{
+	width:80%; 
+	float:right;
+	}
+ 
 .consulting_service_img_right {float:right; width:350px; height:150px; margin-right:-140px;}
-.consulting_service_img_right_2 {float:right; width:25%; height:150px; margin-top:20px;}
+.consulting_service_img_right_2 {float:right; width:350px; height:150px; margin-top:20px; margin-right:-134px;}
 .consulting_service_img_left {float:left; width:350px; height:150px; margin: 20px 0 0 162px; }
 .consulting_service_img_left_2 {float:left; width:350px; height:150px; margin: 20px 0 0 162px; }
 ol.list_position{float:right; text-align:justify; list-style-type: square; font-size:14px; font-family:'OpenSans-Regular';     margin-top: 20px; width: 45%; margin-right: -120px;}
@@ -870,11 +880,13 @@ ol.list_position_consult {
 }
 ol.list{list-style-type: square; font-size:14px; text-align:justify; font-family:'OpenSans-Regular';}
 .sub-titlenew {
-    float: none;
-    margin: 0 auto;
+    float: left;
+   /* margin: 0 auto;*/
    width :75%;
 	
 }
+
+
 .sub-titlenew .main-color{
 	text-transform: uppercase;
     font-family: 'Oswald-Regular';

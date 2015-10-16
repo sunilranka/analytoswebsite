@@ -74,7 +74,7 @@ span{
  
 		if (empty($error)) {
 		$from = 'From: ' . $name . ' <' . $email . '>';
-		$to = "vinay.mistry@nipponitsolutions.com,sranka@gmail.com";
+		$to = "vinay.mistry@nipponitsolutions.com , harika.dhandu@nipponitsolutions.com";
 		$subject = "[Web Enquiry Analytos] " .$name. " - " .$email ;
         $content = "\n Name: " .$name . "\n Phone number: " . $phone . "\n Message: " . $message . "\n Email Address: " . $email;
 		$success = "<h2><span>Thank you! Your message has been sent!</span></h2>";
@@ -161,7 +161,7 @@ span{
 							<div class="title-border background-color-blue"></div>
 							<div class="col-md-8 sub-title">
 								<p><span class="main-color"> WE ARE HAPPY </span> to talk you through any projects.If you are interested in our construction services 
-please contact us to discuss the opportunity at <span>enquiry@analytos.com</span>
+please contact us to discuss the opportunity at <span>info@analytos.com</span>
 </p>
 							</div>
 					</div>	
@@ -170,7 +170,7 @@ please contact us to discuss the opportunity at <span>enquiry@analytos.com</span
 			<div class="padding-top-70 padding-bottom-70" id="contact">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-4 col-sm-4 col-xs-12 contact-info">
+						<div class="col-md-4 col-sm-4 col-xs-4 contact-info">
 							<h3>USA ADDRESS</h3>	
 							<p>10699 Hale Pl, </p>
 							<p>cupertino,</p>
@@ -178,18 +178,18 @@ please contact us to discuss the opportunity at <span>enquiry@analytos.com</span
                             
                             
 						</div>	
-						<div class="col-md-4 col-sm-4 col-xs-12 contact-info">
+						<div class="col-md-4 col-sm-4 col-xs-4 contact-info">
 							<h3>INDIA ADDRESS</h3>	
 							<p>5, Vishal Apartments</p>
 							<p>S.V.Patel Road Kandivali(W),</p>
                             <p>Mumbai - 400067</p>
                             
 						</div>
-						<div class="col-md-4 col-sm-4 col-xs-12 contact-info">
+						<div class="col-md-4 col-sm-4 col-xs-4 margin-top-50 contact-info">
 							<!--<h3>OFFICE HOURS</h3>	-->
 							<p><strong>USA:</strong> 001 408 898 2474</p>
                             <p><strong>India:</strong> 0091 9821884629</p>
-							<p><strong>Email:</strong> information@analytos.com</p>
+							<p><strong>Email:</strong> info@analytos.com</p>
 						</div>	
 					</div>
 				</div>
@@ -249,14 +249,14 @@ please contact us to discuss the opportunity at <span>enquiry@analytos.com</span
 		<div class="item padding-top-150 padding-bottom-74" id="footer">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-5 col-sm-5 col-xs-12 copy">
+					<div class="col-md-5 col-sm-5 col-xs-5 copy">
 						<p>Copyright © 2015 ANALYTOS</p>		
 						
 					</div>
-					<div class="col-md-2 col-sm-2 col-xs-12 footer-logo">
-						<!--<a href="index.html"><img src="images/logo.jpg" alt="Analytos"></a>	-->
-					</div>
-					<div class="col-md-5 col-sm-5 col-xs-12 footer-social">
+					<!--<div class="col-md-2 col-sm-2 col-xs-12 footer-logo">
+						<a href="index.html"><img src="images/logo.jpg" alt="Analytos"></a>	
+					</div>-->
+					<div class="col-md-5 col-sm-5 col-xs-5 footer-social">
 						 <a href="#"><i class="fa fa-linkedin-square"></i></a>
 						<a href="#"><i class="fa fa-facebook-square"></i></a>		
 						<a href="#"><i class="fa fa-twitter-square"></i></a>		

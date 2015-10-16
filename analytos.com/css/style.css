@@ -73,6 +73,14 @@
   font-weight:normal;
   font-style:normal;
 }
+
+/*@font-face {
+font-family: 'OpenSans-Regular';
+src: url('../fonts/OpenSans-Regular.eot') format('embedded-opentype');*/ /* IE */
+/*src: local('OpenSans-Regular;'), url('fonts/OpenSans-Regular.ttf') format('truetype');*/ /* non-IE */
+/*font-weight:normal;
+font-style:normal;}*/
+  
 @font-face {
   font-family: 'OpenSans-Semibold';
   src: url('../fonts/OpenSans-Semibold.ttf') format('truetype');
@@ -302,7 +310,19 @@ margin-top:0px !important;
 .padding-0{
 	padding:0;
 }
-
+cont_main{
+	
+	width:100%;
+}
+.logo_width{
+	width:20%; 
+	float:left;
+	}
+	
+	.nav_width{
+	width:80%; 
+	float:right;
+	}
 .width-100 {
 	width: 100%;
 }
@@ -374,8 +394,8 @@ img,img:hover,img:focus{
 	background:none;
 }
 .navbar{
-	margin-bottom:-18px;
-	margin-top:30px;
+	margin:30px 0 0;
+	float:right;
 }
 .navbar-right{
 	margin-top:17px;
@@ -4163,6 +4183,7 @@ text-align:center;
 }
 .copy{
 	padding-top:48px;
+	float:left;
 }
 .footer-logo {
 	text-align:center;
@@ -4175,6 +4196,7 @@ text-align:center;
 }
 .footer-social{
 	padding-top:54px;
+	float:right;
 }
 .footer-social i{
 	color:#fff;
@@ -4418,6 +4440,7 @@ text-align:center;
   border-color: #ffffff;
 }
 @media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
+	
   #cssmenu {
     width: 100%;
   }
@@ -4486,8 +4509,8 @@ text-align:center;
   #cssmenu #menu-button::after {
     content: '';
     position: absolute;
-    top: -52px;
-    right: 20px;
+    top: -38px;
+    right: 5px;
     display: block;
     width: 40px;
     height: 40px;
@@ -4543,10 +4566,12 @@ text-align:center;
   }
   
   .navbar{
-	margin-bottom:-18px;
-	margin-top:20px;
+	    float: right;
+    margin: 0px -20px 0 0;
 }
 
+.cases{
+	text-align:center;}
 }
 .required{
     color:#F00;
