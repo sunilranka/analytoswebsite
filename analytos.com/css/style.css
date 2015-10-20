@@ -130,7 +130,7 @@ font-style:normal;}*/
 p {
 	font-size: 14px;	
 	 font-family:'OpenSans-Regular';
-	 line-height:24px;
+	 line-height:20px;
 	 color:#252525;
 }
 
@@ -210,6 +210,7 @@ a{
 margin-top:0px !important;
 }
 
+	}
 
 /* PADDING BOTTOM */
 
@@ -779,6 +780,7 @@ text-align:left;
 	padding:0px;
 	width:344px;
 	margin:0 auto;
+	font-family: 'OpenSans-Regular';
 	
 }
 
@@ -4362,7 +4364,7 @@ text-align:center;
 #cssmenu ul ul {
   position: absolute;
   left: -9999px;
-  padding-top: 31px;
+  padding-top: 26px;
 }
 #cssmenu li:hover > ul {
   left: auto;
@@ -4566,8 +4568,8 @@ text-align:center;
   }
   
   .navbar{
-	    float: right;
-    margin: 0px 0px 0 0;
+	    float: none;
+    margin: 0px -20px 0 0;
 }
 
 .cases{
