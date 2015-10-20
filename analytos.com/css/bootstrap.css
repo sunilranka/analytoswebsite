@@ -15,7 +15,7 @@
 
 
 .space{margin-top:30px;}
-ol.list{list-style-type: square; font-size:14px; text-align:center; font-family:'OpenSans-Regular';}
+ol.list{list-style-type: square; font-size:14px; text-align:justify; font-family:'OpenSans-Regular';}
 /*edited parted end */
 
 
@@ -595,9 +595,10 @@ cite {
   border-bottom: 1px solid #eeeeee;
 }
 
-ul{
+ul,
+ol {
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 list-style-type: square; font-size:14px; text-align:justify; font-family:'OpenSans-Regular';
 }
 
@@ -646,9 +647,8 @@ dd {
   margin-left: 0;
 }
 
-
 @media (min-width: 768px) {
-	ol.list{list-style-type: square; font-size:14px; text-align:center; font-family:'OpenSans-Regular';}
+	ol.list{list-style-type: square; font-size:14px; text-align:justify; font-family:'OpenSans-Regular';}
   .dl-horizontal dt {
     float: left;
     width: 160px;
@@ -677,8 +677,10 @@ dd {
   .dl-horizontal dd:after {
     clear: both;
   }
-
-   
+   #header .logo {margin-top:10px;
+ width:100px;
+ height:102px;
+   }
 }
 
 abbr[title],
@@ -839,15 +841,9 @@ pre code {
 }
 
 @media (min-width: 1200px) {
-	
   .container {
     width: 1170px;
   }
-  .consult_service_align{
-    font-size: 14px;
-    text-align: center;
-    font-family: 'OpenSans-Regular';
-	padding-left:0px;}
   
   #header .logo {margin:10px 0 0px;
  width:100px;
@@ -890,9 +886,7 @@ ol.list{list-style-type: square; font-size:14px; text-align:justify; font-family
 	
 }
 
-.align_justify {
-	text-align:justify;
-}
+
 .sub-titlenew .main-color{
 	text-transform: uppercase;
     font-family: 'Oswald-Regular';
@@ -4426,7 +4420,6 @@ textarea.input-group-sm > .input-group-btn > .btn {
   .navbar {
     border-radius: 4px;
   }
-  
 }
 
 .navbar-header:before,
@@ -4509,9 +4502,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   .navbar-fixed-bottom .navbar-collapse {
     padding-right: 0;
     padding-left: 0;
-	
   }
-  
 }
 
 .container > .navbar-header,
@@ -4576,8 +4567,6 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-brand:focus {
   text-decoration: none;
 }
-
-
 
 @media (min-width: 768px) {
   .navbar > .container .navbar-brand {
@@ -4672,7 +4661,6 @@ textarea.input-group-sm > .input-group-btn > .btn {
   .navbar-right {
     float: right !important;
   }
-  
 }
 
 .navbar-form {
@@ -7097,7 +7085,7 @@ td.hidden-md {
   td.hidden-md.hidden-sm {
     display: none !important;
   }
-  ol.list{list-style-type: square; font-size:14px; text-align:center; font-family:'OpenSans-Regular';}
+  ol.list{list-style-type: square; font-size:14px; text-align:justify; font-family:'OpenSans-Regular';}
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -7107,7 +7095,7 @@ td.hidden-md {
   td.hidden-md {
     display: none !important;
   }
-  ol.list{list-style-type: square; font-size:14px; text-align:center; font-family:'OpenSans-Regular';}
+  ol.list{list-style-type: square; font-size:14px; text-align:justify; font-family:'OpenSans-Regular';}
 }
 
 @media (min-width: 1200px) {
@@ -7151,11 +7139,8 @@ td.hidden-lg {
   th.hidden-lg.hidden-sm,
   td.hidden-lg.hidden-sm {
     display: none !important;
- 
   }
-
 }
-
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .hidden-lg.hidden-md,
@@ -7170,7 +7155,7 @@ td.hidden-lg {
     margin: 0 auto;
     margin-bottom: 172px;
 }
-ol.list{list-style-type: square; font-size:14px; text-align:center; font-family:'OpenSans-Regular';}
+ol.list{list-style-type: square; font-size:14px; text-align:justify; font-family:'OpenSans-Regular';}
 }
 
 @media (min-width: 1200px) {
@@ -7212,7 +7197,7 @@ td.visible-print {
   
 }
 @media screen  and (min-width: 360px) and (max-width: 480){
-ol.list{list-style-type: square; font-size:14px; text-align:center; font-family:'OpenSans-Regular';}
+ol.list{list-style-type: square; font-size:14px; text-align:justify; font-family:'OpenSans-Regular';}
  #header .logo {margin:10px 0 10px;
  width:60px;
  height:61px;
