@@ -508,7 +508,7 @@ h6,
 }
 
 p {
-  margin: 0 0 10px;
+  margin: 0 0 0px;
 }
 
 .lead {
@@ -866,8 +866,8 @@ pre code {
  
 .consulting_service_img_right {float:right; width:350px; height:150px; margin-right:-140px;}
 .consulting_service_img_right_2 {float:right; width:350px; height:150px; margin-top:20px; margin-right:-134px;}
-.consulting_service_img_left {float:left; width:350px; height:150px; margin: 20px 0 0 162px; }
-.consulting_service_img_left_2 {float:left; width:350px; height:150px; margin: 20px 0 0 162px; }
+.consulting_service_img_left {float:left; width:350px; height:150px; margin: 20px 0 0 122px; }
+.consulting_service_img_left_2 {float:left; width:350px; height:150px; margin: 20px 0 0 122px; }
 ol.list_position{float:right; text-align:justify; list-style-type: square; font-size:14px; font-family:'OpenSans-Regular';     margin-top: 20px; width: 45%; margin-right: -120px;}
 ol.list_position_2{float:right; text-align:justify; list-style-type: square; font-size:14px; font-family:'OpenSans-Regular';     margin-top: 20px; width: 45%;}
 ol.list_position_dev{float:left; text-align:justify; list-style-type: square; font-size:14px; font-family:'OpenSans-Regular';     width: 45%; margin-left: 120px; margin-top:20px;}
