@@ -23,6 +23,26 @@
       <script src="js/respond.min.js"></script>
     <![endif]-->
 </head>
+<style>
+/*.star{
+	font-size:14px;
+	background:url(images/star.png);
+	background-repeat: no-repeat;
+    background-position: 2px;
+    font-family: 'OpenSans-Regular';
+    line-height: 20px;
+    color: #252525;
+	
+	}*/
+	p:before {
+    content: "\f005";
+    font-family:FontAwesome;
+    position:relative;
+    left:-15px;
+	font-size:10px;
+	
+}
+</style>
 <body>
     
     <div id="page" class="page">
@@ -104,55 +124,54 @@
 								
     
 
-                                          <div class="col-md-12 clearfix about-main">
+                                          <div class="col-md-12 clearfix">
 										<div class="col-md-3 col-sm-3 col-xs-3">
 											<img src="images/planning.jpg" alt="about">
-											<div class="text-center padding-bottom-74 remove_space">
+											<div class="text-center padding-bottom-10">
 												<h4>PLANNING</h4>
-												<ol class="list">
-                                                <li style="font-family:'OpenSans-Regular';">Vendor selection</li>
-                                                <li style="font-family:'OpenSans-Regular';">Expense planning</li>
-                                                <li style="font-family:'OpenSans-Regular';">Staff readiness</li>
-                                                <li style="font-family:'OpenSans-Regular';">Infrastructure readiness</li>
-                                                </ol>
+												
+                                                <p style="font-family:'OpenSans-Regular';">Vendor selection</p>
+                                                <p style="font-family:'OpenSans-Regular';">Expense planning</p>
+                                                <p style="font-family:'OpenSans-Regular';">Staff readiness</p>
+                                                <p style="font-family:'OpenSans-Regular';">Infrastructure readiness</p>
+                                               
                                                
                                                
                                                 
 											</div>
 										</div>
-										<div class="col-md-3 col-sm-3 col-xs-3">
+										<div class="col-md-3 col-sm-3 col-xs-3 padding-bottom-10">
 											<img src="images/configuration_management.jpg" alt="about">
 											<div class="text-center">
 												<h4>CONFIGURATION MANAGEMENT</h4>
-												<ol class="list">
-                                                <li style="font-family:'OpenSans-Regular';">Hardware (system, storage, network)</li>
-                                                <li style="font-family:'OpenSans-Regular';">Software configurations</li>
-                                                </ol>
+											
+                                                <p style="font-family:'OpenSans-Regular';">Hardware (system, storage, network)</p>
+                                                <p style="font-family:'OpenSans-Regular';">Software configurations</p>
+                                             
                                                
 											</div>
 										</div>
-                                        <div class="col-md-3 col-sm-3 col-xs-3">
+                                        <div class="col-md-3 col-sm-3 col-xs-3 padding-bottom-10">
 											<img src="images/workload.jpg" alt="about">
 											<div class="text-center">
 												<h4>WORKLOAD MANAGEMENT</h4>
-												<ol class="list">
-                                                <li>Managing mixed workloads</li>
-                                                <li>Data integration</li>
-                                                <li>Job scheduling</li>
-                                                </ol>
-                                               
+											
+                                                <p style="font-family:'OpenSans-Regular';">Managing mixed workloads</p>
+                                                <p style="font-family:'OpenSans-Regular';">Data integration</p>
+                                                <p style="font-family:'OpenSans-Regular';">Job scheduling</p>
+                                             
 											</div>
 										</div>
                                         
-										<div class="col-md-3 col-sm-3 col-xs-3">
+										<div class="col-md-3 col-sm-3 col-xs-3 padding-bottom-10">
 											<img src="images/data_integration.jpg" alt="about">
 											<div class="text-center">
 												<h4>DATA INTEGRATION</h4>
-												<ol class="list">
-                                                <li>Structured, semi-structured, and unstructured data</li>
-                                                <li>Interfaces to existing systems</li>
-                                                <li>Real-time data access</li>
-                                                </ol>
+											
+                                                <p>Structured, semi-structured, and unstructured data</p>
+                                                <p>Interfaces to existing systems</p>
+                                                <p>Real-time data access</p>
+                                           
 											</div>
 										</div>
                                         
@@ -163,43 +182,45 @@
 							
 					</div>
 				</div>
-                                        <div class="col-md-12 clearfix about-main">
-                                        <div class="col-md-3 col-sm-3 col-xs-3 about">
-											<img src="images/software_dev.jpg" alt="about">
+                
+                                         <div class="container"> 
+                                         <div class="row padding-top-50">
+                                        <div class="col-md-4 col-sm-4 col-xs-4">
 											<div class="text-center">
+                                            <img src="images/software_dev.jpg" alt="about">
 												<h4>SOFTWARE DEVELOPMENT</h4>
-												<ol class="list">
-                                                <li>MapReduce</li>
-                                                <li>Advanced Analytics and Machine Learning</li>
-                                                <li>Natural Language Processing</li>
-                                                <li>Agile development with big data solutions</li>
-                                                </ol>
+												
+                                                <p>MapReduce</p>
+                                                <p>Advanced Analytics and Machine Learning</p>
+                                                <p>Natural Language Processing</li>
+                                                <p>Agile development with big data solutions</p>
+                                              
 											</div>
 										</div>
                                         
-                                        <div class="col-md-3 col-sm-3 col-xs-3 about">
-											<img src="images/tuning.jpg" alt="about">
+                                     
+                                        <div class="col-md-4 col-sm-4 col-xs-4">
 											<div class="text-center">
+                                            <img src="images/tuning.jpg" alt="about">
 												<h4>PERFORMANCE AND TUNING</h4>
-												<ol class="list">
-                                                <li>System optimization</li>
-                                                <li>Profiling</li>
-                                                </ol>
+                                                <p>System optimization</p>
+                                                <p>Profiling</p>
+                                               
 											</div>
 										</div>
-                                        <div class="col-md-3 col-sm-3 col-xs-3 about">
-											<img src="images/system_quality.jpg" alt="about">
+                                       <div class="col-md-4 col-sm-4 col-xs-4">
 											<div class="text-center">
+                                              <img src="images/system_quality.jpg" alt="about"> 
 												<h4>SYSTEM QUALITY ASSURANCE</h4>
-												<ol class="list">
-                                                <li>Test Plan creation</li>
-                                                <li>Large scale testing and validation</li>
-                                                <li>Unit, system, integration testing</li>
-                                                <li>Test data production</li>
-                                                <li>Failover and redundancy management</li>
-                                                </ol>
+                                                <p>Test Plan creation</p>
+                                                <p>Large scale testing and validation</p>
+                                                <p>Unit, system, integration testing</p>
+                                                <p>Test data production</p>
+                                                <p>Failover and redundancy management</p>
+                                               
 											</div>
 										</div>
+                                        </div>
                                         
                                         
                                    
@@ -210,7 +231,7 @@
                 
 				<!-- /.item -->
 		
-    		<div id="about-constructive">
+    		<div id="about-constructive" class="padding-top-50">
 			
 				<div class="container">
 					
@@ -222,23 +243,23 @@
                                 
                                <img src="images/architecture_consulting.jpg" alt="BIG DATA ARCHITECTURE CONSULTING" class="consulting_service_img_right">
                              
-<ol class="list_position_consult">
-<span class="main-color">Big Data Architecture Consulting:</span>
-<li>Business case definition</li>
-<li>Evaluation of technology and opting the right platform.</li>
-<li>Architecture Assessment and Definition</li>
-<li>Prototyping & Benchmarking</li>
+<ol class="list_position_consult" style="padding-left:0px;">
+<span class="main-color">Big Data Architecture Consulting</span>
+<p style="text-indent: -12px;">Business case definition</p>
+<p style="text-indent: -12px;">Evaluation of technology and opting the right platform.</p>
+<p style="text-indent: -12px;">Architecture Assessment and Definition</p>
+<p style="text-indent: -12px;">Prototyping & Benchmarking</p>
 
 </ol>
 
 </div>
 <div class="col-md-9 sub-titlenew">
 <img src="images/evaluationoftechnology.jpg" alt="Evaluation of technology" class="consulting_service_img_left">
-<ol class="list_position">
-<span class="main-color">Big Data Integration Services:</span>
-<li>Support/Integrate Big Data functionality within the Data Appliance</li>
-<li>Support integration of Data using ETL tools for Big Data Platforms</li>
-<li>Managing & handling Unstructured & Structured Data with large volume</li>
+<ol class="list_position" style="padding-left:0px;">
+<span class="main-color">Big Data Integration Services</span>
+<p style="text-indent: -12px;">Support/Integrate Big Data functionality within the Data Appliance</p>
+<p style="text-indent: -12px;">Support integration of Data using ETL tools for Big Data Platforms</p>
+<p style="text-indent: -12px;">Managing & handling Unstructured & Structured Data with large volume</p>
 
 </ol>
 
@@ -247,11 +268,11 @@
 
 <div class="col-md-9 sub-titlenew">
 <img src="images/dev_services.jpg" alt="DEVELOPMENT SERVICES" class="consulting_service_img_right_2">
-<ol class="list_position_dev">
-<span class="main-color">Development Services:</span>
-<li>Development on Columnar DBs, Cloud, RDBMS, <br/> Data Warehouse, Data Appliances and Commodity Hardware's</li>
-<li>Develop Big Data eco system in the organization</li>
-<li>Both on premise and cloud(Public & Private) solutions</li>
+<ol class="list_position_dev" style="padding-left:0px;">
+<span class="main-color">Development Services</span>
+<p style="text-indent: -12px;">Development on Columnar DBs, Cloud, RDBMS, Data Warehouse, Data Appliances and Commodity Hardware's</p>
+<p style="text-indent: -12px;">Develop Big Data eco system in the organization</p>
+<p style="text-indent: -12px;">Both on premise and cloud(Public & Private) solutions</p>
 
 </ol>
 
@@ -259,13 +280,13 @@
 <div class="col-md-9 sub-titlenew" style="margin-bottom:20px;">
   <img src="images/insights.jpg" alt="BIG DATA INSIGHTS" class="consulting_service_img_left_2">
                                     
-<ol class="list_position">
-<span class="main-color">BIG DATA INSIGHTS:</span>
-<li>Enable Reporting and Analytics capabilities over Big Data <br/>Platforms & Data Appliances</li>
-<li>Direct & Indirect Analytics</li>
-<li>Interactive Reports, Business Analytics, Performance Management</li>
-<li>Forecasting, predictive analytics, scoring, pattern search, rule discovery</li>
-<li>BI & Analytical Tools - SAS, SPSS, BusinessObjects, Cognos,<br/> Qlikview, MicroStrategy, Pentaho, etc</li>
+<ol class="list_position" style="padding-left:0px;">
+<span class="main-color">BIG DATA INSIGHTS</span>
+<p style="text-indent: -12px;">Enable Reporting and Analytics capabilities over Big DataPlatforms & Data Appliances</p>
+<p style="text-indent: -12px;">Direct & Indirect Analytics</p>
+<p style="text-indent: -12px;">Interactive Reports, Business Analytics, Performance Management</p>
+<p style="text-indent: -12px;">Forecasting, predictive analytics, scoring, pattern search, rule discovery</p>
+<p style="text-indent: -12px;">BI & Analytical Tools - SAS, SPSS, BusinessObjects, Cognos, Qlikview, MicroStrategy, Pentaho, etc</p>
 </ol>
 
 </div>
@@ -317,7 +338,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-5 col-sm-5 col-xs-5 copy">
-						<p>Copyright © 2015 ANALYTOS</p>		
+						<h4>Copyright © 2015 ANALYTOS</h4>		
 							
 					</div>
 					<!--<div class="col-md-2 col-sm-2 col-xs-12 footer-logo">
@@ -336,29 +357,7 @@
 		
 		</div><!-- /.item -->
     </div><!-- /#page -->
-	<div id="supplemental">
-								<div class="name">
-									Travis
-								</div>
-								<div class="title">
-									Senior Project Engineer
-								</div>
-								<div class="years">
-									<div class="number">
-										3
-									</div>
-									<div class="quantifier">
-										years at PC
-									</div>
-								</div>
-								<div class="copy">
-									<em>What we say:</em> Always looking for the best solution, 
-Travis designed a low-budget alternative to an expensive pneumatic 
-transport system during a jewelry store renovation. The result: $11,000 
-saved and another happy client!
-								</div>
-		</div>	
-
+	
      <!-- Load JS here for greater good =============================-->
 	 <script src="js/jquery.js"></script>
 	 <script src="js/bootstrap.min.js"></script>
