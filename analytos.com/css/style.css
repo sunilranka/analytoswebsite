@@ -4178,8 +4178,8 @@ text-align:center;
 #footer{
 	background:url('../images/expertise.jpg') repeat center center;
 }
-.copy p{
-	text-align:right;
+.copy h4{
+	text-align:center;
 	color:#fff;
 	margin:0px;
 }

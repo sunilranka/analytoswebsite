@@ -24,17 +24,24 @@
     <![endif]-->
 </head>
 <style>
-.star{
+/*.star{
 	font-size:14px;
-	list-style-type:square;
+	background:url(images/star.png);
+	background-repeat: no-repeat;
+    background-position: 2px;
     font-family: 'OpenSans-Regular';
     line-height: 20px;
     color: #252525;
 	
-	}
-	p { margin-left: -2em; 
- text-indent: 2em 
- }
+	}*/
+	p:before {
+    content: "\f005";
+    font-family:FontAwesome;
+    position:relative;
+    left:-15px;
+	font-size:10px;
+	
+}
 </style>
 <body>
     
@@ -123,10 +130,10 @@
 											<div class="text-center padding-bottom-10">
 												<h4>PLANNING</h4>
 												
-                                                <p style="font-family:'OpenSans-Regular';"><strong class="star">&lowast; </strong> Vendor selection</p>
-                                                <p style="font-family:'OpenSans-Regular';"><strong class="star">&lowast; </strong> Expense planning</p>
-                                                <p style="font-family:'OpenSans-Regular';"><strong class="star">&lowast; </strong> Staff readiness</p>
-                                                <p style="font-family:'OpenSans-Regular';"><strong class="star">&lowast; </strong> Infrastructure readiness</p>
+                                                <p style="font-family:'OpenSans-Regular';">Vendor selection</p>
+                                                <p style="font-family:'OpenSans-Regular';">Expense planning</p>
+                                                <p style="font-family:'OpenSans-Regular';">Staff readiness</p>
+                                                <p style="font-family:'OpenSans-Regular';">Infrastructure readiness</p>
                                                
                                                
                                                
@@ -138,8 +145,8 @@
 											<div class="text-center">
 												<h4>CONFIGURATION MANAGEMENT</h4>
 											
-                                                <p style="font-family:'OpenSans-Regular';"><strong class="star">&lowast; </strong> Hardware (system, storage, network)</p>
-                                                <p style="font-family:'OpenSans-Regular';"><strong class="star">&lowast; </strong> Software configurations</p>
+                                                <p style="font-family:'OpenSans-Regular';">Hardware (system, storage, network)</p>
+                                                <p style="font-family:'OpenSans-Regular';">Software configurations</p>
                                              
                                                
 											</div>
@@ -149,9 +156,9 @@
 											<div class="text-center">
 												<h4>WORKLOAD MANAGEMENT</h4>
 											
-                                                <p style="font-family:'OpenSans-Regular';"><strong class="star">&lowast; </strong> Managing mixed workloads</p>
-                                                <p style="font-family:'OpenSans-Regular';"><strong class="star">&lowast; </strong> Data integration</p>
-                                                <p style="font-family:'OpenSans-Regular';"><strong class="star">&lowast; </strong> Job scheduling</p>
+                                                <p style="font-family:'OpenSans-Regular';">Managing mixed workloads</p>
+                                                <p style="font-family:'OpenSans-Regular';">Data integration</p>
+                                                <p style="font-family:'OpenSans-Regular';">Job scheduling</p>
                                              
 											</div>
 										</div>
@@ -161,9 +168,9 @@
 											<div class="text-center">
 												<h4>DATA INTEGRATION</h4>
 											
-                                                <p><strong class="star">&lowast; </strong> Structured, semi-structured, and unstructured data</p>
-                                                <p><strong class="star">&lowast; </strong> Interfaces to existing systems</p>
-                                                <p><strong class="star">&lowast; </strong> Real-time data access</p>
+                                                <p>Structured, semi-structured, and unstructured data</p>
+                                                <p>Interfaces to existing systems</p>
+                                                <p>Real-time data access</p>
                                            
 											</div>
 										</div>
@@ -183,10 +190,10 @@
                                             <img src="images/software_dev.jpg" alt="about">
 												<h4>SOFTWARE DEVELOPMENT</h4>
 												
-                                                <p><strong class="star">&lowast; </strong> MapReduce</p>
-                                                <p><strong class="star">&lowast; </strong> Advanced Analytics and Machine Learning</p>
-                                                <p><strong class="star">&lowast; </strong> Natural Language Processing</li>
-                                                <p><strong class="star">&lowast; </strong> Agile development with big data solutions</p>
+                                                <p>MapReduce</p>
+                                                <p>Advanced Analytics and Machine Learning</p>
+                                                <p>Natural Language Processing</li>
+                                                <p>Agile development with big data solutions</p>
                                               
 											</div>
 										</div>
@@ -196,8 +203,8 @@
 											<div class="text-center">
                                             <img src="images/tuning.jpg" alt="about">
 												<h4>PERFORMANCE AND TUNING</h4>
-                                                <p><strong class="star">&lowast; </strong> System optimization</p>
-                                                <p><strong class="star">&lowast; </strong> Profiling</p>
+                                                <p>System optimization</p>
+                                                <p>Profiling</p>
                                                
 											</div>
 										</div>
@@ -205,11 +212,11 @@
 											<div class="text-center">
                                               <img src="images/system_quality.jpg" alt="about"> 
 												<h4>SYSTEM QUALITY ASSURANCE</h4>
-                                                <p><strong class="star">&lowast; </strong>Test Plan creation</p>
-                                                <p><strong class="star">&lowast; </strong>Large scale testing and validation</p>
-                                                <p><strong class="star">&lowast;</strong> Unit, system, integration testing</p>
-                                                <p><strong class="star">&lowast; </strong>Test data production</p>
-                                                <p><strong class="star">&lowast;</strong> Failover and redundancy management</p>
+                                                <p>Test Plan creation</p>
+                                                <p>Large scale testing and validation</p>
+                                                <p>Unit, system, integration testing</p>
+                                                <p>Test data production</p>
+                                                <p>Failover and redundancy management</p>
                                                
 											</div>
 										</div>
@@ -238,10 +245,10 @@
                              
 <ol class="list_position_consult" style="padding-left:0px;">
 <span class="main-color">Big Data Architecture Consulting</span>
-<p class="star">Business case definition</p>
-<p>Evaluation of technology and opting the right platform.</p>
-<p>Architecture Assessment and Definition</p>
-<p>Prototyping & Benchmarking</p>
+<p style="text-indent: -12px;">Business case definition</p>
+<p style="text-indent: -12px;">Evaluation of technology and opting the right platform.</p>
+<p style="text-indent: -12px;">Architecture Assessment and Definition</p>
+<p style="text-indent: -12px;">Prototyping & Benchmarking</p>
 
 </ol>
 
@@ -250,9 +257,9 @@
 <img src="images/evaluationoftechnology.jpg" alt="Evaluation of technology" class="consulting_service_img_left">
 <ol class="list_position" style="padding-left:0px;">
 <span class="main-color">Big Data Integration Services</span>
-<p> <strong class="star">&lowast;</strong> Support/Integrate Big Data functionality within the Data Appliance</p>
-<p> <strong class="star">&lowast;</strong> Support integration of Data using ETL tools for Big Data Platforms</p>
-<p><strong class="star">&lowast;</strong> Managing & handling Unstructured & Structured Data with large volume</p>
+<p style="text-indent: -12px;">Support/Integrate Big Data functionality within the Data Appliance</p>
+<p style="text-indent: -12px;">Support integration of Data using ETL tools for Big Data Platforms</p>
+<p style="text-indent: -12px;">Managing & handling Unstructured & Structured Data with large volume</p>
 
 </ol>
 
@@ -263,9 +270,9 @@
 <img src="images/dev_services.jpg" alt="DEVELOPMENT SERVICES" class="consulting_service_img_right_2">
 <ol class="list_position_dev" style="padding-left:0px;">
 <span class="main-color">Development Services</span>
-<p><strong class="star">&lowast;</strong> Development on Columnar DBs, Cloud, RDBMS, <br/> Data Warehouse, Data Appliances and Commodity Hardware's</p>
-<p><strong class="star">&lowast;</strong> Develop Big Data eco system in the organization</p>
-<p><strong class="star">&lowast;</strong> Both on premise and cloud(Public & Private) solutions</p>
+<p style="text-indent: -12px;">Development on Columnar DBs, Cloud, RDBMS, Data Warehouse, Data Appliances and Commodity Hardware's</p>
+<p style="text-indent: -12px;">Develop Big Data eco system in the organization</p>
+<p style="text-indent: -12px;">Both on premise and cloud(Public & Private) solutions</p>
 
 </ol>
 
@@ -275,11 +282,11 @@
                                     
 <ol class="list_position" style="padding-left:0px;">
 <span class="main-color">BIG DATA INSIGHTS</span>
-<p><strong class="star">&lowast;</strong> Enable Reporting and Analytics capabilities over Big DataPlatforms & Data Appliances</p>
-<p><strong class="star">&lowast;</strong> Direct & Indirect Analytics</li>
-<p><strong class="star">&lowast; </strong>Interactive Reports, Business Analytics, Performance Management</p>
-<p><strong class="star">&lowast;</strong> Forecasting, predictive analytics, scoring, pattern search, rule discovery</p>
-<p><strong class="star">&lowast;</strong> BI & Analytical Tools - SAS, SPSS, BusinessObjects, Cognos, Qlikview, MicroStrategy, Pentaho, etc</p>
+<p style="text-indent: -12px;">Enable Reporting and Analytics capabilities over Big DataPlatforms & Data Appliances</p>
+<p style="text-indent: -12px;">Direct & Indirect Analytics</p>
+<p style="text-indent: -12px;">Interactive Reports, Business Analytics, Performance Management</p>
+<p style="text-indent: -12px;">Forecasting, predictive analytics, scoring, pattern search, rule discovery</p>
+<p style="text-indent: -12px;">BI & Analytical Tools - SAS, SPSS, BusinessObjects, Cognos, Qlikview, MicroStrategy, Pentaho, etc</p>
 </ol>
 
 </div>
@@ -331,7 +338,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-5 col-sm-5 col-xs-5 copy">
-						<p>Copyright © 2015 ANALYTOS</p>		
+						<h4>Copyright © 2015 ANALYTOS</h4>		
 							
 					</div>
 					<!--<div class="col-md-2 col-sm-2 col-xs-12 footer-logo">
