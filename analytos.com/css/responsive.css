@@ -1,4 +1,4 @@
-@media screen and (min-width:1024px) and (max-width:1280px) {
+@media screen and (min-width:1024px) and (max-width:1170px) {
 	#cssmenu > ul > li, #cssmenu.align-center > ul > li, #cssmenu.align-right > ul > li {
     float: left;
     display: block;
@@ -150,7 +150,7 @@ ol {
 }
 
 }
-@media screen and (min-width:980px) and (max-width:1024px) {
+@media screen and (min-width:980px) and (max-width:1000px) {
 	ol.list{list-style-type: square; font-size:14px; text-align:center; font-family:'OpenSans-Regular';}
 	.sub-titlenew {
     float: none;
