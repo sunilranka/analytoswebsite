@@ -13,7 +13,7 @@
     <!-- Font Awesome -->
     <link href="css/font-awesome.css" rel="stylesheet">
 
-    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
    <script src="js/script.js"></script>
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
@@ -250,7 +250,7 @@ please contact us to discuss the opportunity at <span>info@analytos.com</span>
 			<div class="container">
 				<div class="row">
 					<div class="col-md-5 col-sm-5 col-xs-5 copy">
-						<p>Copyright © 2015 ANALYTOS</p>		
+						<h4>Copyright © 2015 ANALYTOS</h4>	
 						
 					</div>
 					<!--<div class="col-md-2 col-sm-2 col-xs-12 footer-logo">
