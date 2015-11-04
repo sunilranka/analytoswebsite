@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,7 +13,7 @@
     <!-- Font Awesome -->
     <link href="css/font-awesome.css" rel="stylesheet">
 
-    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
    <script src="js/script.js"></script>
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
@@ -23,9 +21,22 @@
       <script src="js/html5shiv.js"></script>
       <script src="js/respond.min.js"></script>
     <![endif]-->
+    <style>
+    #contactForm label {
+	float: left;
+	font-size: 14px;
+	margin-right: 15px;
+	text-align: right;
+	width: 100px;
+}
+span{
+	text-align:center;
+	    color: #3498db;}
+    </style>
+ 
 </head>
 <body>
-    
+  
     <div id="page" class="page">
 		<div class="item" id="top-bar">
 			<div class="container">
@@ -47,12 +58,12 @@
     								
     					<div id='cssmenu'>
                          <ul>
-                         <li class='active propClone'><a href='index.html'><i class="fa fa-home"></i></a></li>
+                         <li><a href='index.html'><i class="fa fa-home"></i></a></li>
                          <li class='has-sub'><a href='#'>About Us</a>
                          <ul>
                        <li><a href='company.html'>Company</a></li>
                         <li><a href='team.html'>Team</a></li>
-                         <li><a href='#'>News and Updates</a></li>
+                        <!-- <li><a href='new&updates.html'>News and Updates</a></li>-->
                         </ul>
                          </li>
                          <li class='has-sub'><a href='#'>Services</a>
@@ -68,8 +79,8 @@
                       <!--<li><a href='#'>Training</a></li>-->
                       <li><a href='usecases.html'>Use Cases</a></li>
                       <li><a href='tech.html'>Technology</a></li>
-                      <li><a href='#'>Career</a></li>
-                     <li><a href='contact.html'>Contact Us</a></li>
+                      <li><a href='career.html'>Career</a></li>
+                     <li class='active propClone'><a href='contact.php'>Contact Us</a></li>
                    
                   </ul>
                  </div>
@@ -105,7 +116,7 @@
 							<div class="title-border background-color-blue"></div>
 							<div class="col-md-8 sub-title">
 								<p><span class="main-color"> WE ARE HAPPY </span> to talk you through any projects.If you are interested in our construction services 
-please contact us to discuss the opportunity at <span>enquiry@analytos.com</span>
+please contact us to discuss the opportunity at <span>info@analytos.com</span>
 </p>
 							</div>
 					</div>	
@@ -114,7 +125,7 @@ please contact us to discuss the opportunity at <span>enquiry@analytos.com</span
 			<div class="padding-top-70 padding-bottom-70" id="contact">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-4 col-sm-4 col-xs-12 contact-info">
+						<div class="col-md-4 col-sm-4 col-xs-4 contact-info">
 							<h3>USA ADDRESS</h3>	
 							<p>10699 Hale Pl, </p>
 							<p>cupertino,</p>
@@ -122,18 +133,18 @@ please contact us to discuss the opportunity at <span>enquiry@analytos.com</span
                             
                             
 						</div>	
-						<div class="col-md-4 col-sm-4 col-xs-12 contact-info">
+						<div class="col-md-4 col-sm-4 col-xs-4 contact-info">
 							<h3>INDIA ADDRESS</h3>	
 							<p>5, Vishal Apartments</p>
 							<p>S.V.Patel Road Kandivali(W),</p>
                             <p>Mumbai - 400067</p>
-                            <p>+91 9821 88 46 29</p>
+                            
 						</div>
-						<div class="col-md-4 col-sm-4 col-xs-12 contact-info">
+						<div class="col-md-4 col-sm-4 col-xs-4 margin-top-50 contact-info">
 							<!--<h3>OFFICE HOURS</h3>	-->
 							<p><strong>USA:</strong> 001 408 898 2474</p>
-                            <p><strong>India:</strong> 0092 9821884629</p>
-							<p><strong>Email:</strong> information@analytos.com</p>
+                            <p><strong>India:</strong> 0091 9821884629</p>
+							<p><strong>Email:</strong> info@analytos.com</p>
 						</div>	
 					</div>
 				</div>
@@ -142,7 +153,8 @@ please contact us to discuss the opportunity at <span>enquiry@analytos.com</span
 		</div><!-- /.item -->
 		<div class="item padding-top-77 padding-bottom-110" id="contact-form">
 			<div class="container">
-				<div class="row">
+				<div class="row" id="contactForm">
+              
 					<form>
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<input type="text" name="1" placeholder="NAME" />
@@ -159,10 +171,13 @@ please contact us to discuss the opportunity at <span>enquiry@analytos.com</span
 						<div class="col-md-12 col-sm-12 col-xs-12">
 							<textarea placeholder="MESSAGE"></textarea>
 						</div>
-						<div class="message-btn">
-							<a href="">Send The Message</a>
+     
+						<div>
+							<button type="submit" class="message-btn" name="submit">Send The Message</button>
 						</div>
 					</form>	
+                  
+                    
 				</div>	
 			</div>
 			
@@ -181,23 +196,21 @@ please contact us to discuss the opportunity at <span>enquiry@analytos.com</span
 				<!-- /.item -->
 		
     		
-		<div class="item padding-top-74 padding-bottom-74" id="footer">
+		<div class="item padding-top-150 padding-bottom-74" id="footer">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-5 col-sm-5 col-xs-12 copy">
-						<p>Copyright © 2015 ANALYTOS</p>		
+					<div class="col-md-5 col-sm-5 col-xs-5 copy">
+						<h4>Copyright © 2015 ANALYTOS</h4>	
 						
 					</div>
-					<div class="col-md-2 col-sm-2 col-xs-12 footer-logo">
+					<!--<div class="col-md-2 col-sm-2 col-xs-12 footer-logo">
 						<a href="index.html"><img src="images/logo.jpg" alt="Analytos"></a>	
-					</div>
-					<div class="col-md-5 col-sm-5 col-xs-12 footer-social">
-						<a href=""><i class="fa fa-facebook-square"></i></a>		
-						<a href=""><i class="fa fa-twitter-square"></i></a>		
-						<a href=""><i class="fa fa-linkedin-square"></i></a>		
-						<a href=""><i class="fa fa-flickr"></i></a>		
-						<a href=""><i class="fa fa-dribbble"></i></a>		
-						<a href=""><i class="fa fa-youtube-square"></i></a>		
+					</div>-->
+					<div class="col-md-5 col-sm-5 col-xs-5 footer-social">
+						 <a href="#"><i class="fa fa-linkedin-square"></i></a>
+						<a href="#"><i class="fa fa-facebook-square"></i></a>		
+						<a href="#"><i class="fa fa-twitter-square"></i></a>		
+						<a href="#"><i class="fa fa-youtube-square"></i></a>		
 								
 					</div>	
 				</div>	
@@ -235,7 +248,6 @@ please contact us to discuss the opportunity at <span>enquiry@analytos.com</span
 	<script src="js/jquery-ui.min.js"></script>
 	<script src="js/simple-timeline.jquery.js"></script>
 	<script>
-
 		$('div.tlcontainer').simpleTimeline();
   
 	</script>

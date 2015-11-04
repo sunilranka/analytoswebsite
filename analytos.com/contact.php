@@ -13,7 +13,7 @@
     <!-- Font Awesome -->
     <link href="css/font-awesome.css" rel="stylesheet">
 
-    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
    <script src="js/script.js"></script>
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
@@ -56,8 +56,9 @@ span{
  
         if (!empty($_POST['phone'])) {
   $phone= $_POST['phone'];
-  } else {
-  $error .= "You didn't type in a phone number. <br />";
+  } if (!(preg_match("([0-9-]+)", $_POST['phone']) != strlen($_POST['phone']) )){
+    $_SESSION['phone_err']='Only numbers and -/';
+    $phonebool=false;
 }
          
 		if (!empty($_POST['message'])) {
@@ -103,7 +104,7 @@ span{
     								
     					<div id='cssmenu'>
                          <ul>
-                         <li class='active propClone'><a href='index.html'><i class="fa fa-home"></i></a></li>
+                         <li><a href='index.html'><i class="fa fa-home"></i></a></li>
                          <li class='has-sub'><a href='#'>About Us</a>
                          <ul>
                        <li><a href='company.html'>Company</a></li>
@@ -125,7 +126,7 @@ span{
                       <li><a href='usecases.html'>Use Cases</a></li>
                       <li><a href='tech.html'>Technology</a></li>
                       <li><a href='career.html'>Career</a></li>
-                     <li><a href='contact.php'>Contact Us</a></li>
+                     <li class='active propClone'><a href='contact.php'>Contact Us</a></li>
                    
                   </ul>
                  </div>
@@ -250,7 +251,7 @@ please contact us to discuss the opportunity at <span>info@analytos.com</span>
 			<div class="container">
 				<div class="row">
 					<div class="col-md-5 col-sm-5 col-xs-5 copy">
-						<p>Copyright © 2015 ANALYTOS</p>		
+						<h4>Copyright © 2015 ANALYTOS</h4>	
 						
 					</div>
 					<!--<div class="col-md-2 col-sm-2 col-xs-12 footer-logo">
