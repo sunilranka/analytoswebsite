@@ -56,8 +56,9 @@ span{
  
         if (!empty($_POST['phone'])) {
   $phone= $_POST['phone'];
-  } else {
-  $error .= "You didn't type in a phone number. <br />";
+  } if (!(preg_match("([0-9-]+)", $_POST['phone']) != strlen($_POST['phone']) )){
+    $_SESSION['phone_err']='Only numbers and -/';
+    $phonebool=false;
 }
          
 		if (!empty($_POST['message'])) {
@@ -103,7 +104,7 @@ span{
     								
     					<div id='cssmenu'>
                          <ul>
-                         <li class='active propClone'><a href='index.html'><i class="fa fa-home"></i></a></li>
+                         <li><a href='index.html'><i class="fa fa-home"></i></a></li>
                          <li class='has-sub'><a href='#'>About Us</a>
                          <ul>
                        <li><a href='company.html'>Company</a></li>
@@ -125,7 +126,7 @@ span{
                       <li><a href='usecases.html'>Use Cases</a></li>
                       <li><a href='tech.html'>Technology</a></li>
                       <li><a href='career.html'>Career</a></li>
-                     <li><a href='contact.php'>Contact Us</a></li>
+                     <li class='active propClone'><a href='contact.php'>Contact Us</a></li>
                    
                   </ul>
                  </div>

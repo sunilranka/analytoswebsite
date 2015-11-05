@@ -4286,7 +4286,7 @@ text-align:center;
   background: #ffffff;
  float: right;
 }
-#menu-line {
+/*#menu-line {
   position: absolute;
   top: 0;
   left: 0;
@@ -4297,7 +4297,7 @@ text-align:center;
   -ms-transition: all 0.25s ease-out;
   -o-transition: all 0.25s ease-out;
   transition: all 0.25s ease-out;
-}
+}*/
 #cssmenu > ul > li {
   float: left;
 }
