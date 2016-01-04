@@ -75,7 +75,7 @@ span{
  
 		if (empty($error)) {
 		$from = 'From: ' . $name . ' <' . $email . '>';
-		$to = "vinay.mistry@nipponitsolutions.com , harika.dhandu@nipponitsolutions.com";
+		$to = "vinay.mistry@nipponitsolutions.com , sranka@gmail.com";
 		$subject = "[Web Enquiry Analytos] " .$name. " - " .$email ;
         $content = "\n Name: " .$name . "\n Phone number: " . $phone . "\n Message: " . $message . "\n Email Address: " . $email;
 		$success = "<h2><span>Thank you! Your message has been sent!</span></h2>";
