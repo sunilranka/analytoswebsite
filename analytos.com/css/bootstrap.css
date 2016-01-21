@@ -1544,7 +1544,25 @@ ol.list{list-style-type: square; font-size:14px; text-align:justify; font-family
     margin-left: 0;
   }
 }
+ul.ul_position_algorithm {
+		  margin-top: 0px;
+}
+li.list_position_algorithm {
+    
+   text-align: justify;
+ /*  width: 45%;
+ float: left;
+       margin-left: 120px;
+  
+	  ;
+	 
+  */
+   list-style-image: url("../images/bullet1.png");
+      font-size: 14px;
+    font-family: 'OpenSans-Regular';
 
+
+}
 @media (min-width: 1200px) {
   .col-lg-1,
   .col-lg-2,
